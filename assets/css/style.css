@@ -1,0 +1,88 @@
+body{
+    background:#eee;
+    width: 100%;
+    overflow-x: hidden;
+}
+.fade1 {
+    opacity: 0.5;
+  }
+h1 {
+    font-family: 'BioRhyme', serif;
+    font-size: 750%;
+}
+h2 {
+    font-family: 'BioRhyme', serif;
+    font-size: 400%;
+}
+.title-banner {
+    margin-top: 20%;
+    height: 33%;
+    font-weight: bold;
+
+}
+.subtitle-banner {
+    text-align: center;
+    /* margin-top: 10px; */
+    writing-mode: vertical-rl
+}
+
+.hori-timeline .events {
+    border-top: 3px solid #e9ecef;
+}
+
+@media (min-width: 1140px) {
+    .hori-timeline .events .event-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+    }
+    .hori-timeline .events .event-list .event-date {
+        top: -12px;
+    }
+}
+
+.event-date {
+    background-color: rgba(64,144,203,.3)!important;
+    border-radius: 3px;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.bg-soft-primary {
+    background-color: rgba(64,144,203,.3)!important;
+}
+.TimeLine {
+    width: 100%;
+    border: 2px dotted #dee2e6; border-style: none none solid; color: white; background-color: white;
+    margin-bottom: -15px;
+}
+.card {
+    border: none;
+    margin-bottom: 24px;
+    -webkit-box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+    box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
+}
+
+
+/* The heart of the matter */
+.testimonial-group > .row {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-3 {
+    display: inline-block;
+  }
+  
+  /* Decorations */
+  .col-3 { 
+      color: black;  
+    }
+
+
+
+
+
+
+
